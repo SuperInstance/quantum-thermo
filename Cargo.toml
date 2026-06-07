@@ -1,0 +1,15 @@
+[package]
+name = "quantum-thermo"
+version = "0.1.0"
+edition = "2024"
+description = "Quantum thermodynamics: quantum limits on computation, heat, and information"
+license = "MIT"
+repository = "https://github.com/SuperInstance/quantum-thermo"
+keywords = ["quantum", "thermodynamics", "entropy", "physics", "information-theory"]
+categories = ["science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[lib]
+path = "src/lib.rs"
